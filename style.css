@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: #fff;
+}
+
+.container form {
+  width: 600px;
+  padding: 40px;
+  background: rgb(10, 10, 10, 0.1);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.container .jumbotron {
+  width: 600px;
+  padding: 20px;
+  background: rgb(10, 10, 10, 0.1);
+  margin: auto;
+  text-align: center;
+}
+
+.container .result div .situacao {
+  font-size: 30px;
+}
+
+@media (max-width: 770px) {
+  .container form {
+    width: 500px;
+    margin-top: 10px;
+  }
+
+  .container .jumbotron {
+    width: 500px;
+  }
+}
+
+@media (max-width: 530px) {
+  .container {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container form {
+    width: 100%;
+    margin: 0px;
+  }
+  .container .jumbotron {
+    width: 100%;
+  }
+}
